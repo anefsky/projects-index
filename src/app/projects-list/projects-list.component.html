@@ -1,19 +1,10 @@
-<div>
+<div class="projects-list">
 
 	<table>
 		<thead>
 			<tr>
-				<th>
-					Name
-				</th>
-				<th>
-					Source
-				</th>
-				<th>
-					Hosted
-				</th>
-				<th>
-					Description
+				<th *ngFor="let heading of headings">
+					{{ heading.label }}
 				</th>
 			</tr>
 		</thead>
