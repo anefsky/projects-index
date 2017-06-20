@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
 	styleUrls: ['./projects-list.component.scss']
 })
 export class ProjectsListComponent implements OnInit {
-	headings: object;
+	headings: Array<object>;
+	listings: Array<object>;
 
 	constructor() { 
 	}
@@ -24,6 +25,21 @@ export class ProjectsListComponent implements OnInit {
 		},
 		{
 			label: "description"
+		}
+		];
+
+		this.listings = [
+		{
+			name: "Purchasing app",
+			source: "",
+			hosted: "",
+			description: "Angular 1.x, scss, bootstrap"
+		},
+		{
+			name: "Ecommerce app",
+			source: "",
+			hosted: "",
+			description: "Angular 1.x, scss, bootstrap"
 		}
 		];
 	}

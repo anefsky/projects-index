@@ -8,6 +8,23 @@
 				</th>
 			</tr>
 		</thead>
+		<tbody>
+			<tr *ngFor="let listing of listings">
+				<td>
+					{{ listing.name }}
+				</td>
+				<td>
+					{{ listing.source }}
+				</td>
+				<td>
+					{{ listing.hosted }}
+				</td>
+				<td>
+					{{ listing.description }}
+				</td>
+			</tr>
+
+		</tbody>
 	</table>
 
 </div>
