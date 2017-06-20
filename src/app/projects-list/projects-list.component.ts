@@ -15,31 +15,37 @@ export class ProjectsListComponent implements OnInit {
 	ngOnInit() {
 		this.headings = [
 		{
-			label: "name"
+			label: "Name"
 		},
 		{
-			label: "source"
+			label: "Source code"
 		},
 		{
-			label: "hosted"
+			label: "Demo"
 		},
 		{
-			label: "description"
+			label: "Description"
 		}
 		];
 
 		this.listings = [
 		{
 			name: "Purchasing app",
-			source: "",
-			hosted: "",
-			description: "Angular 1.x, scss, bootstrap"
+			source: "https://github.com/anefsky/penguin",
+			hosted: "http://andrewnefsky.com/projects/penguin",
+			description: "Internal business application use for coordinating pricing between bidders and buyers.  Uses angular, scss, bootstrap."
 		},
 		{
 			name: "Ecommerce app",
-			source: "",
-			hosted: "",
-			description: "Angular 1.x, scss, bootstrap"
+			source: "https://github.com/anefsky/catalogue_page",
+			hosted: "http://andrewnefsky.com/projects/catalogue_page",
+			description: "Prototype for single page ecommerce app.  Uses angular, scss."
+		},
+		{
+			name: "Time sheet header",
+			source: "https://github.com/anefsky/virtusa",
+			hosted: "http://andrewnefsky.com/projects/virtusa",
+			description: "Partial view of timesheet application.  Uses angular, sass, font-awesome."
 		}
 		];
 	}

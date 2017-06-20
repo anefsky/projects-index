@@ -1,9 +1,25 @@
 .projects-list {
 	margin: 0 auto;
+	width: 75%;
 
 	table {
-		width: 50%;
-		margin: 0 auto;
-		margin-top: 100px;
+//		margin: 0 auto;
+//		margin-top: 100px;
+//		width: 100%;
+		thead {
+			th {
+				font-size: 1.2em;
+				text-decoration: underline;
+			}
+		}
+		tr {
+			height: 100px;
+		}
+		td{
+			width: 25%;
+			i {
+				margin-left: 10px;
+			}
+		}
 	}
 }
