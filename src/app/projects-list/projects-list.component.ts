@@ -45,7 +45,7 @@ export class ProjectsListComponent implements OnInit {
 			name: "Time sheet header",
 			source: "https://github.com/anefsky/virtusa",
 			hosted: "http://andrewnefsky.com/projects/virtusa",
-			description: "Partial view of timesheet application.  Uses angular, sass, font-awesome."
+			description: "Partial view of timesheet application.  Uses angular, scss, font-awesome."
 		}
 		];
 	}
