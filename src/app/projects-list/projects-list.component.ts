@@ -30,16 +30,16 @@ export class ProjectsListComponent implements OnInit {
 
 		this.listings = [
 		{
-			name: "Clock",
-			source: "https://github.com/anefsky/clock",
-			hosted: "http://andrewnefsky.com/projects/clock",
-			description: "Analogue clock built with just html, css, and javascript.  No frameworks or libraries used."
-		},
-		{
 			name: "Purchasing app",
 			source: "https://github.com/anefsky/penguin",
 			hosted: "http://andrewnefsky.com/projects/penguin",
 			description: "Internal business application used for coordinating pricing between bidders and buyers.  Uses angular, sass, bootstrap."
+		},
+		{
+			name: "Clock",
+			source: "https://github.com/anefsky/clock",
+			hosted: "http://andrewnefsky.com/projects/clock",
+			description: "Analogue clock built with just html, css, and javascript.  No frameworks, libraries, or graphics used."
 		},
 		{
 			name: "Ecommerce app",
